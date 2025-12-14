@@ -1,0 +1,51 @@
+
+body{
+margin: 0;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+justify-content: center;
+background-color: #080606;
+
+}
+
+
+
+
+
+
+.cardprojetos{
+  background-color:#6C63FF ;
+  border-radius: 10%;
+  border: rgb(50, 50, 209) solid;
+  box-shadow: #080606;
+ padding: 35px;
+max-width: 600px;
+margin: 40 auto;
+
+
+;
+
+}
+
+.cardprojetos h2{
+    color: black;
+    margin-bottom: 10px;
+}
+
+.cardprojetos p{
+    color: black;
+    font-family: 1 rem;
+    font-family: cursive;
+    
+}
+
+.cardprojetos{
+    display: grid;
+    place-items: center;
+
+    
+
+    
+}

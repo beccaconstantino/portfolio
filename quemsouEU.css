@@ -1,0 +1,77 @@
+body{
+    
+    background-color: black;
+  color: #6C63FF;
+  
+
+  
+}
+
+
+
+
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Dancing Script', cursive;
+  color: #6C63FF;
+    font-size: 70px;
+}
+
+.text p {
+  width: 80%;
+  height: 70%;
+  font-size: 21px;
+  font-family:"Poppins", sans-serif ;
+  display: block;
+  margin: 0 auto;
+  text-align: center; /* substitui justify/align para centralizar texto */
+  color: #6C63FF;
+}
+
+
+
+.container{
+  display: flex;
+  gap:15px;
+  justify-content: center;
+  padding: 100px;
+}
+
+.container img{
+  width:150px;
+  height: 150px;
+  border-radius: 20%;
+  border: solid  #aba7f1;
+}
+
+.container img:hover{
+  width: 150px;
+  transition: transform 0.3 ease;
+  transform: scale(1.2);
+}
+
+
+#apollo {
+  width: 100px;
+  height: 100px;
+  border: 35px solid #6C63FF;
+  border-radius:60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+  
+ #apollo img {
+width: 600%;
+  height: 600%;
+  border-radius: 70%;
+ justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+    }
+  

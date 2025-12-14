@@ -1,0 +1,179 @@
+body{
+    font-family: Dancing Script;
+    background-color: black;
+    color:#6C63FF;
+
+}
+
+  
+
+.links{
+  font-family:Dancing Script ;
+list-style: none;
+display: flex;
+justify-content: flex-end;
+padding: 1;
+margin: 0;
+}
+
+
+.links li{
+margin-right: 30px;
+width: 200px;
+height: 20px;
+
+}
+
+.links a{
+color: #6C63FF;
+text-decoration: none;
+font-size: 1.2rem;
+position: relative;
+padding-bottom: 6px;
+
+}
+
+.links a::after{
+  content: " ";
+  width:0%;
+  height: 4px;
+  background-color:#6C63FF ;
+  transition: width 0.3s ease-in-out;
+  position: absolute;
+  bottom: -4px; ;
+  left: 0;
+}
+
+
+.links a:hover::after{
+  width: 100%;
+}
+
+
+.center img{
+  align-items: center;
+  height: 200px;
+  padding: 1px;
+  border: 1px solid  #6C63FF;
+  object-fit: cover;
+  margin-top: 50%;
+}
+
+.sobremim p{
+  font-family:"Poppins, sans-serif";
+}
+
+.formação p{ 
+  font-family: "Poppins, sans-serif";}
+
+.cursos  p {
+   font-family: "Poppins, sans-serif";
+
+}
+
+     
+
+
+
+header img{
+  border-radius: 60%;
+  height:200px;
+  width:200px;
+
+
+}
+
+header{
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+}
+
+
+
+h1{
+font-family: Dancing Script;
+ right: 50px;
+ font-size: 60px;
+  
+}
+
+
+
+
+.nome h2{
+font-family: Dancing Script;
+right: 100px;
+font-size: 45px;
+
+
+}
+
+.animado{
+
+  display: inline-block;
+  animation: mexer 0.5s infinite alternate;
+  color:  #6C63FF;
+  font-weight: bold;
+}
+
+@keyframes mexer{
+  from { transform: translateY(1px);}
+  to {transform: translateY(-5px);}
+};
+
+
+
+
+
+section{
+  padding-top: 100px;
+}
+
+main{
+  display: flex;
+  gap: 32px;
+  padding-left: 32px;
+  padding-right: 32px;
+
+}
+
+.menu{
+  display:flex;
+  gap:20px;
+
+  flex: 1;
+  padding: 20px;
+  text-align:center;
+  border-radius: 8px;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu .sobremim,.formação,.cursos{
+  width: 100%;
+  font-size: 20px;
+}
+
+
+.footer-content{
+  background-color:black;
+  color: #6C63FF;
+  padding: 20px; 
+  text-align: center;
+}
+
+.footer-content p {
+  margin: 5px 0
+}
+
+.footer-content a {
+  color: #6C63FF;
+  text-decoration: underline;
+  text-decoration: none;
+}
+
+.footer-content a:houver {
+  color: #ccc;
+}
